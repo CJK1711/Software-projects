@@ -1,0 +1,19 @@
+Assumptions
+
+
+Functional Requirements
+Req ID            Planned Function            Planned Test                File
+
+FR1               welcomeMessage()            test_welcome_message        UI
+FR2               gameSelect()                test_game_select            UI
+FR3               getGameMode()               test_mode_input             Logic
+FR4               mode1() + mode2()           test_mode                   Master
+FR4.5             Quit Feature                -                           Master
+FR5               generateCode()              test_generate_code_valid    Logic
+FR6               inputPrompt()               test_input_prompt           UI
+FR7               acceptInput()               test_accept_input_valid     Logic
+FR8               compareGuess()              test_guess_success          Logic
+FR9               guessFeedback()             test_guess_feedback         UI
+FR10              checkWinCondition()         test_win_condition          UI
+FR11              gameResults()               test_game_results           UI
+FR12              resetGame()                 test_game_reset             Logic

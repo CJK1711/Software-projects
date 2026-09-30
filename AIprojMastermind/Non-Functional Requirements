@@ -1,0 +1,29 @@
+NFR1: There shall be no input or print statements in the logic file
+Category: Code tidiness
+Validation method: Inspection
+Status: Met
+
+NFR2: The program shall ensure the input is valid and reject invalid inputs
+Category: Code integrity
+Validation method: Manual
+Status: Met
+
+NFR3: The program shall be clearly commented
+Category: Code tidiness
+Validation method: Inspection
+Status: Not met
+
+NFR4: The program shall not crash
+Category: Code integrity
+Validation method: Manual
+Status: Not met
+
+NFR5: The program shall display a clear error message if an error is found
+Category: Code integrity
+Validation method: Manual
+Status: Met
+
+NFR6: The mode 2 algorithm shall solve the code in 6 guesses or less
+Category: Performance
+Validation method: Automated
+Status: Not met
